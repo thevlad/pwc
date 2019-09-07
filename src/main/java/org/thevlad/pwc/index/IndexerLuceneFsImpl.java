@@ -82,11 +82,11 @@ import lombok.extern.slf4j.Slf4j;
 @Slf4j
 public class IndexerLuceneFsImpl implements Indexer {
 
-	@Value("${swsConfig.storage.luceneIndexRootDir}")
+	@Value("${pwcConfig.storage.luceneIndexRootDir}")
 	private String indexDir;
-	@Value("${swsConfig.storage.indexedUrlsFilePath}")
+	@Value("${pwcConfig.storage.indexedUrlsFilePath}")
 	private String indexedUrlsFilePath;
-	@Value("${swsConfig.indexer.maxResults}")
+	@Value("${pwcConfig.indexer.maxResults}")
 	private int maxResults;
 
 	private Analyzer analyzer = new StandardAnalyzer();

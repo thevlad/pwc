@@ -28,17 +28,17 @@ public class CrawlServiceDefaultImpl implements CrawlService {
 
 	static final Logger logger = LoggerFactory.getLogger(CrawlServiceDefaultImpl.class);
 
-	@Value("${swsConfig.storage.luceneIndexRootDir}")
+	@Value("${pwcConfig.storage.luceneIndexRootDir}")
 	private String crawlStorageDir;
-	@Value("${swsConfig.crawl.maxDepthOfCrawling}")
+	@Value("${pwcConfig.crawl.maxDepthOfCrawling}")
 	private int maxDepthOfCrawling = 3;
-	@Value("${swsConfig.crawl.maxPagesToFetch}")
+	@Value("${pwcConfig.crawl.maxPagesToFetch}")
 	private int maxPagesToFetch = 100;
-	@Value("${swsConfig.crawl.numberOfCrawlers}")
+	@Value("${pwcConfig.crawl.numberOfCrawlers}")
 	private int numberOfCrawlers = 3;
-	@Value("${swsConfig.crawl.politenessDelay}")
+	@Value("${pwcConfig.crawl.politenessDelay}")
 	private int politenessDelay = 500;
-	@Value("${swsConfig.crawl.controllersPoolSize}")
+	@Value("${pwcConfig.crawl.controllersPoolSize}")
 	private int controllersPoolSize = 5;
 	@Autowired
 	private Indexer indexer;

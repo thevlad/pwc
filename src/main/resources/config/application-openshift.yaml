@@ -1,4 +1,4 @@
-swsConfig:
+pwcConfig:
     storage:
         crawlStorageRootDir: ${OPENSHIFT_DATA_DIR}/storage/pwc/crawl
         luceneIndexRootDir: ${OPENSHIFT_DATA_DIR}/storage/pwc/idx

@@ -1,4 +1,4 @@
-swsConfig:
+pwcConfig:
     storage:
         crawlStorageRootDir: /storage/pwc/crawl
         luceneIndexRootDir: /storage/pwc/idx
