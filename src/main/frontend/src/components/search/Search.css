@@ -1,0 +1,44 @@
+.searchInput {
+    width: 90%;
+    height: 2em;
+    /*
+    border-radius: 10px;
+    */
+}
+
+.btndiv {
+    position: relative;
+    margin: auto;
+    top: 10px;
+    font-size: 2em;
+}
+
+.btn {
+    position: relative;
+    vertical-align: middle;
+    color: darkblue;
+    font-weight: bold;
+
+    /*
+    border-radius: 4px;        
+    padding: 4px 18px;
+    */
+}
+
+.bigfont {
+    font-size: 3em;
+    /*
+    font-weight: bold;
+*/
+    color: darkblue;
+}
+
+body {
+    text-align: center;
+}
+
+.searchDiv {
+    width: 500px;
+    height: 150px;
+    min-height: 144px;
+}

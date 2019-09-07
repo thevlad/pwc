@@ -1,0 +1,12 @@
+info:
+    app:
+        name: pwc
+        description: Personal web crawler
+        version: 0.1.0
+    os: ${os.name}
+    build:
+        version: ${project.version}
+
+spring:
+    profiles:
+        active: dev

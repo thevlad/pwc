@@ -1,0 +1,15 @@
+swsConfig:
+    storage:
+        crawlStorageRootDir: /storage/pwc/crawl
+        luceneIndexRootDir: /storage/pwc/idx
+        indexedUrlsFilePath: /storage/pwc/indexed.json
+
+    crawl:
+        maxDepthOfCrawling: 3
+        maxPagesToFetch: 100
+        numberOfCrawlers: 3
+        politenessDelay: 200
+        controllersPoolSize: 5
+    
+    indexer:
+        maxResults: 1000

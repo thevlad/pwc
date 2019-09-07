@@ -1,0 +1,15 @@
+swsConfig:
+    storage:
+        crawlStorageRootDir: ${OPENSHIFT_DATA_DIR}/storage/pwc/crawl
+        luceneIndexRootDir: ${OPENSHIFT_DATA_DIR}/storage/pwc/idx
+        indexedUrlsFilePath: ${OPENSHIFT_DATA_DIR}/storage/pwc/indexed.json
+
+    crawl:
+        maxDepthOfCrawling: 3
+        maxPagesToFetch: 100
+        numberOfCrawlers: 3
+        politenessDelay: 500
+        controllersPoolSize: 5
+
+    indexer:
+        maxResults: 1000
